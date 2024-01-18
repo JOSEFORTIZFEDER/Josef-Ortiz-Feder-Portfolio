@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Assignment</title>
+<head>
+</head>
+<body>
+    <span>
+        <p>
+        Enter Some Data Here
+        <input type = "text" id = "num1" value ="">
+        <br> </br>
+        <input type = "button" onclick=firstButton() value = "Move the Data">
+        <div id="firstData"></div>
+        </p>
+       
+    </span>
+    <span>
+         <p>Enter More Data Here
+        <input type = "text" id = "num2" value ="">
+        <br> </br>
+        <input type = "button" onclick=secondButton() value = "Move the Data">
+        <div id="secondData"></div>
+        </p>
+    </span>
+    <span>
+         <p>Enter Even More Data Here
+        <input type = "text" id = "num3" value ="">
+        <br> </br>
+        <input type = "button" onclick=thirdButton() value = "Move the Data">
+        <div id="thirdData"></div>
+        </p>
+    </span>
+    
+
+</body>
+</html>
+
+<script>
+    function firstButton()
+    {
+        document.getElementById("firstData").innerHTML = document.getElementById("num1").value;
+    }
+    function secondButton()
+    {
+        document.getElementById("secondData").innerHTML = document.getElementById("num2").value;
+    }
+    function thirdButton()
+    {
+        document.getElementById("thirdData").innerHTML = document.getElementById("num3").value;
+    }
+    
+</script>
