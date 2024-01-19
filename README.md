@@ -8,3 +8,5 @@ Large projects are located in separate repositories as followed:
 Website using SQL, Apache, HTML, Javascript, PHP, and CSS -  https://github.com/MunaimahK/COP4710
 
 Trendify Website/Mobile app using MongoDB, express.js, node.js, React Native, and Javascript - Website Version: https://github.com/cirillojon/Trendify-App / Mobile Version (IOS + Android): https://github.com/zpackattack/trendifymobile
+
+Trendify Website is live here - https://trendify-project.herokuapp.com/
